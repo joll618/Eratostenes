@@ -3,7 +3,7 @@ import java.util.scanner:
 public class SieveOfEratos{
 
      //**
-       * print all the prime numbers less tan o given number N using thesieve
+       * print all the prime numbers less tan 0 given number N using thesieve
        *of Eratostenes.
        *
        *
