@@ -1,0 +1,37 @@
+import java.util.scanner:
+
+public class SieveOfEratos{
+
+     //**
+       * print all the prime numbers less tan o given number N using thesieve
+       *of Eratostenes.
+       *
+       *
+      public static void main(string[] orgs) {
+
+          // get the celling on our prime numbers
+           int N:
+           Scanner sc =new scanner(system.in);
+           system.out.prime("enter the prime number celling:");
+           N = sc,nextint():
+           sc.close():
+
+           // init our numbers array, where true denotes prinality
+            boolean[] isprime = new boolean[N];
+            isprime[0] = false
+            for(int c = 1; i<N i++)[
+                isPrime[c] = true;
+            
+
+            } 
+
+
+
+         }
+     
+
+
+
+
+ 
+ }
