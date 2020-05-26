@@ -1,0 +1,21 @@
+} 
+    
+             // check every number >= 2 for primality
+             for (int i = 2; i <= N; i++) ){  
+          
+                 //i is prime if hasn't crossed off' yet
+                  if (isprime[i-1]){
+                      
+                      //print out prime number
+                       system.out.println(i);
+                        
+                      //'cross off' all the subsequence multiples of i
+                        for (int j = 2*i; j <= N; j += i)
+           }             for (int j = i*i; j <=N; j +=i) {//more efficient   
+                              isprime[j-1] =false;
+        }
+    }
+
+  }
+ 
+ }
